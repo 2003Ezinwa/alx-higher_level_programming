@@ -7,6 +7,3 @@ def islower(c):
             continue
     if ord(c) != alpha:
         return False
-
-def islower(i)
-def islower(G)
