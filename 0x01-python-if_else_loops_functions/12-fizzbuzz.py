@@ -6,8 +6,8 @@ def fizzbuzz():
         elif number % 3 == 0:
             print("Fizz ", end='')
         elif number % 5 == 0 and number == 100:
-            print("Buzz ")
+            print("Buzz ", end='')
         elif number % 5 == 0:
             print("Buzz ", end='')
         else:
-            print("{} ".format(number))
+            print("{} ".format(number), end='')
