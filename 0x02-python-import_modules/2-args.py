@@ -13,4 +13,4 @@ def system():
         print("{}: {}".format(i, argv[i]))
 
 if __name__ == "__main__":
-    system():
+    system()
