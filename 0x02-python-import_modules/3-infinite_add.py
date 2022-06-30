@@ -8,7 +8,7 @@ def system():
     else:
         for i in range(1, len(argv)):
             summ += int(argv[i])
-        print("{:d}".format(summ)), end=''
+        print("{:d}".format(summ), end='')
 
 if __name__ == "__main__":
     system()
