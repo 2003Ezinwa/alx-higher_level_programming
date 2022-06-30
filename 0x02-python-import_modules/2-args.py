@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/python3
 from sys import argv
 
 def system():
