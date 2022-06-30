@@ -2,7 +2,7 @@
 
 def system():
     from variable_load_5 import a
-    print("{:d}".format(a))
+    print()
 
 
 if __name__ == "__main__":
