@@ -7,7 +7,7 @@ if __name__ == "__main__":
     a = int(argv[1])
     b = int(argv[3])
     ope = ["+", "-", "*", "/"]
-    from calculator import add, sub, mul, div
+    from calculator_1 import add, sub, mul, div
     func = [add, sub, mul, div]
     for i, s in enumerate(ope):
         if argv[2] == s:
