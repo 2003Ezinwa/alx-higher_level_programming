@@ -27,4 +27,4 @@ integers/floats")
         raise TypeError("div must be a number")
     if div == 0:
         raise ZeroDivisionError("division by zero")
-    return [[round(i / div, 2) for i in l] for ele in matrix]
+    return [[round(i / div, 2) for i in ele] for ele in matrix]
